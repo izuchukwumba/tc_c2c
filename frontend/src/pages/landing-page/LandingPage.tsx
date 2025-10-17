@@ -1,6 +1,7 @@
-import Header from "./Header";
+import Header from "../../components/Header";
 import Intro from "./Intro";
 import Card from "./Card";
+import Footer from "../../components/Footer";
 
 const LandingPage = () => {
   const cardsContent = [
@@ -51,9 +52,7 @@ const LandingPage = () => {
           ))}
         </div>
       </div>
-      <div className="flex item-center justify-center pt-5 pb-2">
-        <div className="text-sm">Developed by Izuchukwu Mba, 2025</div>
-      </div>
+      <Footer />
     </>
   );
 };

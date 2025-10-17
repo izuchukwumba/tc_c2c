@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../components/Button";
+import { useNavigate } from "react-router-dom";
 
 const Card: React.FC<{
   title: string;
@@ -7,7 +8,7 @@ const Card: React.FC<{
   description: string;
   buttonText: string;
 }> = ({ title, image, description, buttonText }) => {
-  console.log(image);
+  const navigate = useNavigate();
   return (
     <div className="text-black flex flex-col gap-y-3">
       <div className="text-tcCrimson font-black text-2xl uppercase">
@@ -24,7 +25,7 @@ const Card: React.FC<{
           text={buttonText}
           moreCSS="bg-tcBlue text-black w-[70%] justify-center border-1 border-black font-semibold"
           handleAction={() => {
-            console.log(`Button '${buttonText}' clicked`);
+            navigate("/auth-intro");
           }}
         />
       </div>
