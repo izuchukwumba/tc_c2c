@@ -19,18 +19,15 @@ const Card: React.FC<{
         className="border-l-8 border-tcBlue max-w-full h-auto"
       />
       <div className="">{description}</div>
-      {/* <div className="bg-tcBlue w-fit flex text-center cursor-pointer hover:opacity-90">
-        <div className="pl-3 pr-4 py-3 uppercase text-black font-inter text-lg font-medium">
-          {buttonText}
-        </div>
-      </div> */}
-      <Button
-        text={buttonText}
-        moreCSS="bg-tcCrimson text-white"
-        handleAction={() => {
-          console.log(`Button '${buttonText}' clicked`);
-        }}
-      />
+      <div className="flex flex-col items-center justify-center pt-2">
+        <Button
+          text={buttonText}
+          moreCSS="bg-tcCrimson text-white px-20"
+          handleAction={() => {
+            console.log(`Button '${buttonText}' clicked`);
+          }}
+        />
+      </div>
     </div>
   );
 };

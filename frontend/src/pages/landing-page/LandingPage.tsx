@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Intro from "./Intro";
 import Card from "./Card";
-import Button from "../../components/Button";
 
 const LandingPage = () => {
   const cardsContent = [
@@ -27,11 +26,18 @@ const LandingPage = () => {
       image: "/supportive-mentorship.jpeg",
       buttonText: "Take the first step",
     },
+    {
+      title: "Gain Insights",
+      description:
+        "          The Campus 2 Corporate program is your place to connect, grow, and thrive. Here, Talladega alumni share real experiences, open doors to new opportunities, and help you plan your next big move. It is about support, shared stories, and building a future where every student has a mentor who believes in them and guides them to success. Join the community, learn from the best, and keep the Talladega spirit alive!",
+      image: "/student-listening.jpeg",
+      buttonText: "Get Started",
+    },
   ];
   return (
     <>
       <Header />
-      <div className="py-4 mx-2">
+      <div className="py-4 mx-2 mt-35">
         <Intro />
         <div className="mt-4 flex flex-col gap-y-10">
           {cardsContent.map((card, index) => (
@@ -45,8 +51,8 @@ const LandingPage = () => {
           ))}
         </div>
       </div>
-      <div className="pt-4">
-        <div className="border-t-5 border-tcBlue mx-5"></div>
+      {/* <div className="pt-4">
+        <div className="border-t-5 border-tcBlue mr-5 w-[80%]"></div>
         <div className="text-black py-4 px-2 ">
           The Campus 2 Corporate program is your place to connect, grow, and
           thrive. Here, Talladega alumni share real experiences, open doors to
@@ -64,7 +70,7 @@ const LandingPage = () => {
             }}
           />
         </div>
-      </div>
+      </div> */}
       <div className="flex item-center justify-center pt-5 pb-2">
         <div className="text-sm">Developed by Izuchukwu Mba, 2025</div>
       </div>
