@@ -15,7 +15,7 @@ const Intro: React.FC = () => {
             before them.
           </p>
           <figcaption>
-            — <cite>Izuchukwu Mba</cite>
+            — <cite>Rakeb Tilahun</cite>
           </figcaption>
         </blockquote>
       </figure>
