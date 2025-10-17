@@ -29,7 +29,7 @@ const LandingPage = () => {
     {
       title: "Gain Insights",
       description:
-        "          The Campus 2 Corporate program is your place to connect, grow, and thrive. Here, Talladega alumni share real experiences, open doors to new opportunities, and help you plan your next big move. It is about support, shared stories, and building a future where every student has a mentor who believes in them and guides them to success. Join the community, learn from the best, and keep the Talladega spirit alive!",
+        "The Campus 2 Corporate program is your place to connect, grow, and thrive. Here, Talladega alumni share real experiences, open doors to new opportunities, and help you plan your next big move. It is about support, shared stories, and building a future where every student has a mentor who believes in them and guides them to success. Join the community, learn from the best, and keep the Talladega spirit alive!",
       image: "/student-listening.jpeg",
       buttonText: "Get Started",
     },
@@ -51,26 +51,6 @@ const LandingPage = () => {
           ))}
         </div>
       </div>
-      {/* <div className="pt-4">
-        <div className="border-t-5 border-tcBlue mr-5 w-[80%]"></div>
-        <div className="text-black py-4 px-2 ">
-          The Campus 2 Corporate program is your place to connect, grow, and
-          thrive. Here, Talladega alumni share real experiences, open doors to
-          new opportunities, and help you plan your next big move. It is about
-          support, shared stories, and building a future where every student has
-          a mentor who believes in them and guides them to success. Join the
-          community, learn from the best, and keep the Talladega spirit alive!
-        </div>
-        <div className="w-[90%] flex items-center justify-center mx-auto pb-6">
-          <Button
-            text="Get Started"
-            moreCSS="w-full justify-center bg-tcCrimson text-white"
-            handleAction={() => {
-              console.log(`Button 'Get Started' clicked`);
-            }}
-          />
-        </div>
-      </div> */}
       <div className="flex item-center justify-center pt-5 pb-2">
         <div className="text-sm">Developed by Izuchukwu Mba, 2025</div>
       </div>

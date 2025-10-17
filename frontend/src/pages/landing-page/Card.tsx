@@ -22,7 +22,7 @@ const Card: React.FC<{
       <div className="w-full flex flex-col items-center justify-center pt-2">
         <Button
           text={buttonText}
-          moreCSS="bg-tcBlue text-black w-[60%] justify-center border-1 border-black font-semibold"
+          moreCSS="bg-tcBlue text-black w-[70%] justify-center border-1 border-black font-semibold"
           handleAction={() => {
             console.log(`Button '${buttonText}' clicked`);
           }}
