@@ -16,13 +16,13 @@ const Card: React.FC<{
       <img
         src={image}
         alt={title}
-        className="border-l-8 border-tcBlue max-w-full h-auto"
+        className="border-l-10 border-tcCrimson max-w-full h-auto"
       />
       <div className="">{description}</div>
-      <div className="flex flex-col items-center justify-center pt-2">
+      <div className="w-full flex flex-col items-center justify-center pt-2">
         <Button
           text={buttonText}
-          moreCSS="bg-tcCrimson text-white px-20"
+          moreCSS="bg-tcBlue text-black w-[60%] justify-center border-1 border-black font-semibold"
           handleAction={() => {
             console.log(`Button '${buttonText}' clicked`);
           }}

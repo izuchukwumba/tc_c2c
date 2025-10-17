@@ -8,11 +8,11 @@ const Button: React.FC<{
   return (
     <div
       onClick={handleAction}
-      className={`text-black bg-tcBlue w-fit flex text-center cursor-pointer hover:opacity-90 ${
+      className={`text-black flex text-center cursor-pointer hover:opacity-80 ${
         moreCSS ?? ""
       }`}
     >
-      <div className="pl-3 pr-4 py-3 uppercase font-inter text-lg font-medium">
+      <div className="pl-3 pr-4 py-3 uppercase font-primary text-lg ">
         {text}
       </div>
     </div>
