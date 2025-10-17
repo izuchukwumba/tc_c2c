@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  --font-primary: "Montserrat", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --color-tcCrimson: #aa0534;
+  --color-tcCrimsonDark: #670026;
+  --color-tcBlue: #72cdf4;
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-tcCrimsonDark);
+}

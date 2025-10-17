@@ -1,0 +1,17 @@
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  margin: 1rem;
+  padding-left: 1rem;
+  /* border-left: 4px solid #ccc; */
+}
+
+blockquote p::before {
+  content: open-quote;
+}
+blockquote p::after {
+  content: close-quote;
+}
+
+q {
+  quotes: "“" "”";
+}
